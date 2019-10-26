@@ -3,6 +3,8 @@
 echo "http://dl-4.alpinelinux.org/alpine/v3.9/main" >> /etc/apk/repositories && \
 echo "http://dl-4.alpinelinux.org/alpine/v3.9/community" >> /etc/apk/repositories
 
+RUN apk add --no-cache --upgrade bash
+
 apk update && \
 	apk add build-base \
     libxml2-dev \
