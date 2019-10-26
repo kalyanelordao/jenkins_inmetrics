@@ -1,0 +1,14 @@
+compras:
+  title: "Fazer feira no mercado"
+  date: "5 November, 2019"
+  time: "23:00"
+  about: "Preciso comprar maçã, banana e melão"
+  status: "Done"
+academia:
+  title: "Ir para academia"
+  date: "8 November, 2019"
+  time: "23:00"
+  about: "Preciso malhar ombros"
+  status: "Done"
+
+

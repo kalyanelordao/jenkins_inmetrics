@@ -1,9 +1,13 @@
 pipeline {
-    agent any
+    agent {
+        docker {
+            image "ruby"
+        }
+    }
     stages {
         stage("Build") {
             steps {
-                sh "echo 'simulando um build'"
+                sh "bundle install"
             }
         }
         stage("Tests") {
