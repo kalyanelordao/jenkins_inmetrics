@@ -1,4 +1,4 @@
-echo "http://dl-4.alpinelinux.org/alpine/v3.9/main" >> /etc/apk/repositories && \
+echo "http://dl-cdn.alpinelinux.org/alpine/v3.4/main/x86_64/APKINDEX.tar.gz" >> /etc/apk/repositories && \
 echo "http://dl-4.alpinelinux.org/alpine/v3.9/community" >> /etc/apk/repositories
 
 apk update && \
