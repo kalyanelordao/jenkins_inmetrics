@@ -10,6 +10,7 @@ pipeline {
                 sh "chmod u+x build/alpine.sh"
                 sh "./build/alpine.sh"
                 sh "bundle install"
+                sh "mv geckodriver /usr/local/bin/"
             }
         }
         stage("Tests") {
